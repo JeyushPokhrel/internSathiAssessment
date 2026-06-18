@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* ── InternSathi Brand Colors ── */
+@theme {
+  --color-brand-light: #fef6f6;   /* very light pinkish white — used for page backgrounds */
+  --color-brand-mid:   #f37e7e;   /* medium salmon pink — used for accents and hover states */
+  --color-brand:       #ef2628;   /* bold red — the primary brand color for buttons, badges */
+}
+
+body {
+  margin: 0;
+  background-color: #fef6f6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+}
