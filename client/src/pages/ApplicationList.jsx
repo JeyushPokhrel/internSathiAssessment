@@ -157,10 +157,9 @@ const ApplicationList = () => {
       {/* Loading / Content */}
       {loading ? (
         <div className="flex justify-center items-center py-20">
-          <div
-            className="animate-spin h-12 w-12 border-b-2 rounded-full"
-            style={{ borderColor: '#ef2628' }}
-          />
+          <p className="text-lg font-medium" style={{ color: '#ef2628' }}>
+            Loading ...
+          </p>
         </div>
       ) : (
         <>
