@@ -64,3 +64,20 @@ All endpoints are prefixed with `http://localhost:5000/applications`
 - `POST /applications` - Create a new application
 - `PATCH /applications/:id` - Update an application
 - `DELETE /applications/:id` - Delete an application
+
+# Project Demo
+
+### Initial Screen
+![alt text](image.png)
+
+## Add Application Screen
+![alt text](image-1.png)
+
+## Edit Screen 
+![alt text](image-2.png)
+
+## Searching Jobs by Job Name 
+![alt text](image-3.png)
+
+## Delete Screen
+![alt text](image-4.png)
